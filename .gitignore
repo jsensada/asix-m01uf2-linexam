@@ -1,0 +1,7 @@
+**/*students.json
+
+# Ignoring terraform files
+deploy-files/terraform/terraform.tfstate
+deploy-files/terraform/terraform.tfstate.backup
+deploy-files/terraform/.terraform.lock.hcl
+deploy-files/terraform/.terraform/
