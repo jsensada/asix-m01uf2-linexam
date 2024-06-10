@@ -1,0 +1,15 @@
+[Unit]
+Description=validator webapp
+After=network.target
+
+[Service]
+User=validator
+Group=validator
+WorkingDirectory=/opt/validator-app
+ExecStart=sudo python3 -u app.py
+StandardOutput=file:/var/log/validator-app.log
+StandardError=inherit
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
