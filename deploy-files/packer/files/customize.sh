@@ -1,8 +1,10 @@
 #!/bin/bash
-sudo bash -c 'echo 10.204.0.29 apt.archive.asix.com >> /etc/hosts'
 sudo bash -c 'echo 127.0.0.1 linuf2.examenxarxa.com >> /etc/hosts'
 ## Vars definitions:
-GRAFANA_HOST=34.175.206.30
+GRAFANA_HOST=XXXXXXXXXX
+# Hosts file
+sudo bash -c 'echo XXXXXXXXXX apt.archive.asix.com >> /etc/hosts'
+
 ## HTML content:
 sudo mkdir -p /opt/exam
 sudo bash -c "cat <<EOF > /opt/exam/index.html
