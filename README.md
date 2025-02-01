@@ -6,7 +6,7 @@ _Autoevaluator test for Linux knowledge based on the M01-UF2 for ASIX profession
 ![](img/schema.jpg)
 
 ## Content
-Aquest projecte incloud:
+Aquest projecte inclou:
 _This project includes:_  
 - [deploy-files](deploy-files): Packer and terraform configurations to deploy the customized student machines + the centralized one.
 - [prometheus configuration files](monitor/prometheus/)
